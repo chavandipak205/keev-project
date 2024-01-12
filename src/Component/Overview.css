@@ -1,0 +1,370 @@
+.container{
+    border: 8px solid #f4f4f4;
+    background-color: #f4f4f4;
+    height: 97vh;
+    margin-top: 15px;
+}
+
+.overvie{
+    display: flex;
+    gap: 0.3rem;
+    overflow: visible;
+    padding: 7px;
+    background-color:#ffffff;
+    flex-direction: inherit;
+   }
+.over{
+    font-size: 18px;
+    font-weight: 400;
+ 
+}
+
+    
+.con{
+  align-items: center;
+    height: 90px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(245, 226, 255);
+    display: flex;
+}
+.imgcss, .imgca{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    padding: 10px;  
+   }
+.totlfnd{
+ 
+    display: flex;
+    flex-direction: row;
+    margin:10px 20px;
+}
+.fontcolor{
+    font-size: 14px;
+    color: rgb(136, 136, 136);
+}
+.rupcolr{
+    font-size: 18px;
+    color: rgb(20, 20, 20);
+}
+
+.contersec{
+  margin-top: 44px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  background: rgb(226, 255, 232);
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+.contersec:hover{
+  border-color: green
+}
+.returns{
+    margin-left: 10px;
+}
+.backcol{
+    margin: 0;
+    background: #ffffff;
+    padding: 0.5rem;
+    border: 6px solid #f4f4f4;
+}
+.css-19xx6yd{
+    display: flex;
+    flex-direction: column;
+}
+.css-snzyz{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+.css-1flyc9m {
+    font-size: 18px;
+}
+.css-1el0xp0{
+    background: rgb(235, 237, 255);
+    color: rgb(0, 163, 190);
+    text-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 40px;
+    width: 113px;
+    height: 31px;
+    font-size: 16px;
+    margin-top: 0px !important;
+}
+.css-lvugna {
+    display: flex;
+    -webkit-box-align: baseline;
+    align-items: baseline;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    flex-direction: row;
+    /* gap: 0.5rem; */
+    font-size: 14px;
+    margin-top: 8px !important;
+    border-bottom: 3px solid rgb(209, 224, 230);
+}
+.css-i2uism {
+    color: rgb(136, 136, 136);
+ 
+}
+.css-1lhsode {
+    overflow: hidden;
+    position: relative;
+    background: var(--chakra-colors-gray-100);
+    height: var(--chakra-sizes-1);
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid rgb(209, 224, 230);
+}
+.fontpri{
+    font-weight: 500;
+    border: none;
+}
+.linkto{
+    color: black;
+}
+
+.contearn{
+    margin-top: 20px;
+    background: #ffffff;
+    border: 5px solid #f4f4f4;;
+}
+.imgearn{
+ margin-left:  8.5rem;
+ margin-top: 1rem;
+ width: 4rem;
+
+}
+.para{
+    margin-top: 0.6rem;
+    text-align: center;
+}
+.delpoycss{
+
+    margin-top: 1rem;
+    border:5px solid #f4f4f4;
+
+}
+.deplo{
+   
+    background: #ffffff;
+    display: flex;
+    border-bottom: 1px solid rgb(214, 211, 211);
+    padding: 0.6rem;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.liveTradeLink{
+  text-decoration: none; 
+  color: black; 
+}
+.liveTradeLink:hover{
+  color: black
+}
+
+.depspn {
+    overflow: hidden;
+    position: relative;
+justify-content: end;
+   
+  }
+  .openpos{
+    display: flex;
+    align-items: center;
+    /* width: max-content; */
+    background: rgb(247, 227, 230);
+    border-radius: 5px;
+    cursor: pointer;
+    /* margin-left: 18px; */
+    border: 1px solid transparent;
+
+  }
+  
+.openpos:hover {
+  border-color: rgb(131, 106, 5);
+}
+  .executd{
+    margin-top: 2.5rem;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background:rgb(226, 255, 232);
+    border-radius: 5px;
+    /* width: max-content; */
+    cursor: pointer;
+    border: 1px solid transparent;
+  }
+  .executd:hover{
+    border-color: rgb(55, 55, 250)
+  }
+
+  .orders {
+        display: flex;
+        border: 5px solid #f4f4f4;
+        background: #ffffff;
+        padding-bottom: 0.5rem;
+        position: relative;
+   
+}
+.gtrclass{
+ float: right;
+ font-weight: bold;
+}
+
+
+ .midpart{
+    margin-top: -250px;
+    background: #ffffff;
+    padding:1rem;
+    border: 1px solid #f4f4f4;
+    width: 115%;
+ }
+ .borderbtm1{
+  padding: 0.6rem;
+  margin-top: 0.1rem;
+  border-bottom: 1px solid rgb(174, 171, 171);
+ }
+ .borderbtm{
+    cursor: pointer;
+    padding: 0.6rem;
+    margin-top: 0.1rem;
+    border-bottom: 1px solid rgb(174, 171, 171);
+ }
+ .borderbtm2{
+  cursor: pointer;
+  margin-top: 0.1rem;
+  margin-right: 10px;
+}
+
+/* Responsive styles for tablets and smaller devices */
+@media (max-width: 991px) {
+    .container {
+      padding: 15px; 
+      background: #f4f4f4;
+    }
+  
+    .col-md-8 {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .row .col-6,
+    .row .col-8 {
+      width: 100%;
+      margin-bottom: 15px;  
+    }
+    .midpart {
+      width: 100%;   
+      margin-top: 10px;
+    }
+    .orders{
+      display: block;
+    }
+  
+    .col-4 {
+      width: 100%;
+     align-items: center;
+    }
+  }
+/* Movile Device Css */
+@media (max-width: 767px) {
+  .container{
+    background-color: #f4f4f4;
+    height: auto;
+  }
+    .row .col-4 {
+      width: 100%;
+      margin-bottom: 15px; 
+    }
+    .contersec{
+      margin-top: 5px;
+    }
+    .col-md-8 .row {
+      flex-direction: column;
+    }
+  
+    .delpoycss,
+    .midpart,
+    .orders {
+     width: auto; 
+   
+    }
+ 
+    .col-6,
+    .col-8 {
+      width: 100%;
+    }
+  
+    .openpos,
+    .executd {
+      margin-left: 0; 
+     margin-top: 0;
+    }
+  
+    /* Styles for the second media query */
+    .row .orders {
+      flex-direction: column;
+      align-items: stretch; 
+      margin-bottom: 0;
+      
+    }
+    .orders{
+
+     padding-bottom: 0;
+    }
+    .row .orders .col-4 {
+        width: 100%;
+      }
+    .col-4 {
+      width: 100%;
+     
+    }
+  
+    .orders .col-4 {
+      width: 100%;
+    margin-bottom: 0px; 
+
+    }
+ 
+    .openpos,
+    .executd {
+      margin-left: 0;  
+      width: 100%;
+    }
+    .backcol{
+      margin-top: -180px;
+    }
+  
+    /* Styles for "Refer & Earn" section */
+    .contearn {
+      display: flex;
+      flex-direction: column;
+      align-items: center;  
+      width: 100%;  
+      margin-bottom: 15px;  
+    
+    }
+  
+    .contearn .imgearn {
+        display: block;
+        margin: 1rem auto;  
+        margin-bottom: 15px;
+
+    }
+   
+    .contearn .para {
+      text-align: center;  
+    }
+  }
+  
