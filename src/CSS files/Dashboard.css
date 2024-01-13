@@ -1,21 +1,30 @@
 .container-fluid {
     margin-top: 2rem;
     background-color: #f3f5f6;
-    height: 89vh;
+    height: 100%;
     width: 100%;
     margin: 0;
     padding: 0;
 }
 .logocss{
-    width: 3%;
-    height: 3%;
+    width: 2.7%;
+    height: 2.7%;
     object-fit: cover;
     align-items: center;
+    margin-left: 0.7rem;
 }
 .logodash{
     display: flex;
     padding-top: 0.2rem;
-   
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1000; 
+  }
+  body{
+    margin-top: 50px; 
   }
   .btmindicator{
    margin-left: 45rem;
@@ -34,14 +43,14 @@
 }
 .loginbtn{
   border-radius: 50%;
-  border: 1px solid rgb(15, 148, 244);
-text-align: center;
-  font-size: larger;
-margin-left: 0.8rem;
-height: 2.2rem;
-width: 2.3rem;
-margin-top: 0.4rem;
-background-color: rgb(225, 250, 241);
+    border: 1px solid rgb(22, 140, 225);
+    text-align: center;
+    font-size: larger;
+    margin-left: 0.8rem;
+    height: 2.2rem;
+    width: 2.3rem;
+    margin-top: 0.4rem;
+    background-color: rgb(225, 250, 241);
 }
 .bell{
   align-items: center;
@@ -64,8 +73,7 @@ color: gray ;
 .icondas{
   justify-content: center;
   align-items: center;
-  text-align: center;
- margin-left: 0.8rem;
+  margin-left: 0.7rem;
 }
 .dash{
   justify-content: center;
@@ -80,7 +88,21 @@ color: gray ;
   width: 100%;
   border: none;
   color: rgb(88, 90, 90);
-  padding-left: 1.1rem;
+  padding: 0 1.2rem;
+
+
+}
+.mv9tfz{
+  display: flex;
+  background-color: #fff;
+  border: none;
+  color: rgb(88, 90, 90);
+  padding: 0.6rem 1.4rem;
+ text-decoration: none;
+}
+.mv9tfz:hover{
+  background-color: rgb(243, 242, 242);
+  color: grey;
 }
 .css-1mv9tfz:hover{
   background-color: rgb(243, 242, 242);
@@ -100,24 +122,27 @@ color: gray ;
   padding: 0 1rem;
 }
 
-.indicatorbox .arrow {
-  margin-left: auto;
+.arrow {
+margin-left: 1.7rem;
 }
-
+.arrow1{
+  margin-left: 0.6rem;
+}
 .dropdown-content {
   background-color: #fff; /* Set your desired background color */
-  padding: 5px; /* Adjust padding as needed */
   list-style: none; /* Remove bullet points */
-  padding-left: 3rem;
+  padding-left: 3rem ;
+
 }
 
-.dropdown-content .dropul {
-  padding: 0;
-  margin: 0;
+.linking{
+  text-decoration: none;
+  color: grey;
 }
-
+.linking:hover{
+  color: grey;
+}
 .dropdown-content .dropli {
-  padding: 5px 0; /* Add padding to each list item */
   cursor: pointer;
   list-style: none;
 font-weight: 600;
@@ -132,5 +157,103 @@ color: rgb(23, 129, 147);
   font-size: 600;
 }
 .optlogo{
+  text-align: center;
+  color: gray;
+display: flex;
+}
+.optionc{
+  margin-left: 15px;
+  margin-top: -0.3rem;
+}
+.dashmain{
+  overflow: scroll;
+  position: fixed;
+}
+
+
+/* last container */
+
+.astra{
+  padding: 0.3rem ;
+  font-size: larger;
+  font-weight: 500;
+}
+.container-last{
+  margin-right: 0.1rem;
+  width: 84%;
+  height: 65vh;
+  margin-left: 13rem;
+  background: #ffffff;
+  margin-top:20px;
+}
+.activimg{
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+}
+.activtxt{
+margin-top: 5px;
   align-items: center;
+  font-weight: bold;
+}
+.first{
+  position: relative;
+  margin: 0rem 0.8rem;
+  width: 100%;  
+  height: 50vh;
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 3px 3px rgb(219, 217, 217);
+}
+.sec{
+  margin: 3.5rem 0.6rem;
+  width:99%;
+  height: 50vh;
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 3px 3px rgb(219, 217, 217);
+}
+.sec1{
+  margin: 3.5rem 0.1rem;
+  width:97%;
+  height: 50vh;
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 3px 3px rgb(219, 217, 217)
+}
+.activfirst{
+  display: flex;
+  width: 100%;
+  height: 9vh;
+  background: #ffffff;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  box-shadow: 0 0 1px 1px rgb(219, 217, 217);
+}
+.btncss {
+display: inline-block;
+
+}
+.btnactiv{
+  font-weight: bold;
+  margin-right: 0.2rem;
+}
+.Castrocss{
+  display: flex;
+  align-items: center;
+  margin-left: 0.7rem;
+}
+.cartoname{
+ margin-top:10px;
+ margin-left: 0.7rem;
+}
+.other{
+padding-right: 5px;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  border-radius: 5px;
+  background-color: rgb(226, 246, 249);
+}
+.ptext{
+  margin-left: 1rem;
 }
