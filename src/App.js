@@ -9,7 +9,7 @@ import Login from "./Component/Login";
 import EmailLogin from "./Component/EmailLogin";
 import Signup from "./Component/Signup";
 import ForgetPass from "./Component/ForgetPass";
-import Graph from "./Component/Graph";
+import ZoomableTimeSeriesGraph from "./Component/ZoomableTimeSeriesGraph";
 
 
 
@@ -19,7 +19,7 @@ function App() {
     
       <Router>
       <Routes>
-     <Route path="/" element={<Graph />}/>
+     <Route path="/" element={<ZoomableTimeSeriesGraph />}/>
       {/* <Route path="/home" element={<Home />} />
       <Route path="/login" element={<Login />} />
       <Route path="/" element={<EmailLogin />} />

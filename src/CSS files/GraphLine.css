@@ -1,0 +1,49 @@
+
+  .first-heading{
+    margin-left: 320px;
+    margin-top: 10px;
+  }
+  .graphtable{
+    border: 1px solid gray;
+    width: 50%;
+    margin-left: 320px;
+    border-radius: 20px;
+  }
+  .graphtr{
+    font-weight: 600;
+    border:1px solid rgb(197, 196, 196);
+  }
+  .graphth{
+    padding: 10px;
+  }
+  .graphtd{
+    padding-left: 10px;
+  }
+.colorgreen{
+  color: rgb(8, 136, 136);
+}
+.coloradd{
+  margin-left: 40px;
+  color: rgb(13, 112, 58);
+}
+
+.paginateBox {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+.page, .break, .previous, .next {
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.active {
+  color: #14e8ec;
+
+}
