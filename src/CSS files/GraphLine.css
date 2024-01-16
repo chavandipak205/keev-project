@@ -63,3 +63,6 @@
 font-size: larger;
 margin-top: 90px;
 }
+.closebtn:hover{
+background-color: aquamarine;
+}
