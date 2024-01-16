@@ -9,8 +9,13 @@ import Typography from "@mui/material/Typography";
 import { useNavigate } from "react-router-dom";
 import "../CSS files/Dashboard.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { getAuth, signOut } from "firebase/auth";
+
 
 const Dashboard = () => {
+
+  const auth = getAuth();
+
   const [isIndicatorDropdownOpen, setIsIndicatorDropdownOpen] = useState(false);
   const [isTimeBasedDropdownOpen, setIsTimeBasedDropdownOpen] = useState(false);
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -43,6 +48,17 @@ const Dashboard = () => {
   };
   const handlePosClick = () => {
     navigate("/returns");
+  };
+  const handleLogout = async () => {
+    try {
+      // Perform Firebase logout
+      await signOut(auth);
+
+      // Redirect the user to the login page
+     navigate("/login");
+    } catch (error) {
+      console.error("Error during logout:", error);
+    }
   };
 
   return (
@@ -102,17 +118,17 @@ const Dashboard = () => {
               </ListItem>
 
               <ListItem
-                style={{ marginTop: "26rem", color: "red" }}
-                button
-                component={Link}
-                to="/link2"
-                onClick={closeDrawer}
-              >
-                <ListItemIcon>
-                  <i className="fa fa-bell-o bell" style={{ color: "red" }}></i>
-                </ListItemIcon>
-                <Typography variant="inherit">Logout</Typography>
-              </ListItem>
+        style={{ marginTop: "26rem", color: "red" }}
+        button
+        component={Link}
+        to="/login"
+        onClick={handleLogout}
+      >
+        <ListItemIcon>
+          <i className="fa fa-bell-o bell" style={{ color: "red" }}></i>
+        </ListItemIcon>
+        <Typography variant="inherit">Logout</Typography>
+      </ListItem>
             </List>
           </div>
         </Drawer>

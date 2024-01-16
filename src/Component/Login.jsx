@@ -2,39 +2,27 @@ import React from "react";
 import "../CSS files/Login.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useNavigate } from "react-router-dom";
-import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
-import { firebaseApp } from "../Component/firebaseConfig";
+import { signInWithPopup, GoogleAuthProvider } from "firebase/auth";
+import { auth } from "../Component/firebaseConfig";
+
 
 const Login = () => {
+
+console.log(auth);
+
   const Navigate = useNavigate();
-  const auth = getAuth(firebaseApp);
-  const handleLogin = async (provider) => {
+  const handleLogin = async () => {
     try {
-      let authProvider;
+      const provider = new GoogleAuthProvider();
+      const result = await signInWithPopup(auth, provider);
 
-      // Determine the authentication provider based on the clicked icon
-      if (provider === "google") {
-        authProvider = new firebaseApp.auth.GoogleAuthProvider();
-      } else if (provider === "email") {
-        // Implement email authentication logic
-        // You may use a library like firebase.auth().signInWithEmailAndPassword
-        // and handle OTP verification
-      } else if (provider === "whatsapp") {
-        // Implement WhatsApp authentication logic
-        // This might involve sending OTP to the user's phone
-      }
-
-      // Sign in with the selected provider
-      const result = await firebaseApp.auth().signInWithPopup(authProvider);
-
-      // After successful login, you can navigate to the desired page
+      // Handle the result or navigate to another page
       console.log("User successfully logged in:", result.user);
-      Navigate("/home");
+      Navigate("/dashbord");
     } catch (error) {
       console.error("Error during login:", error);
     }
   };
-
   return (
     <div>
       <div className="container-flude">
@@ -51,27 +39,18 @@ const Login = () => {
           </div>
           <div className="col-5">
             <div className="rightside">
-              <div className="imgright">
+            <div className="imgright">
                 <img src="image/dashboard.png" alt="" />
                 <p className="welc">Welcome Back</p>
                 <p className="logcas">Login With</p>
                 <div className="icon">
-                  <div
-                    className="googlimg"
-                    onClick={() => handleLogin("google")}
-                  >
+                  <div className="googlimg" onClick={handleLogin}>
                     <img className="google" src="image/google.png" alt="" />
                   </div>
-                  <div
-                    className="googlimg"
-                    onClick={() => Navigate("/")}
-                  >
+                  <div className="googlimg" onClick={() => Navigate("/")}>
                     <img className="google" src="image/email.png" alt="" />
                   </div>
-                  <div
-                    className="googlimg"
-                    onClick={() => handleLogin("whatsapp")}
-                  >
+                  <div className="googlimg" onClick={() => handleLogin("whatsapp")}>
                     <img className="google" src="image/whatsapp.gif" alt="" />
                   </div>
                 </div>

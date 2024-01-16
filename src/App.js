@@ -9,6 +9,7 @@ import Login from "./Component/Login";
 import EmailLogin from "./Component/EmailLogin";
 import Signup from "./Component/Signup";
 import ForgetPass from "./Component/ForgetPass";
+import Graph from "./Component/Graph";
 
 
 
@@ -18,18 +19,18 @@ function App() {
     
       <Router>
       <Routes>
-      {/* <Route path="/home" element={<Home />} /> */}
-
+     <Route path="/" element={<Graph />}/>
+      {/* <Route path="/home" element={<Home />} />
       <Route path="/login" element={<Login />} />
       <Route path="/" element={<EmailLogin />} />
       <Route path="/signup" element={<Signup />} />
       <Route path="/forget" element={<ForgetPass />} />
-      {/* <Route path="/dashbord" element={<Dashboard />} />
+      <Route path="/dashbord" element={<Dashboard />} />
       <Route path="/overview" element={<OverviewPage />} />
       <Route path="/openorders" element={<openorders />} />
       <Route path="/orders" element={<Orders />} />
       <Route path="/returns" element={<returns />} />
-      <Route path="/pricing" element={<pricing />} /> */}
+      <Route path="/pricing" element={<pricing />} />  */}
    
      
  

@@ -1,0 +1,44 @@
+/* Add this CSS to your component or a separate stylesheet */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination span {
+    /* background-color: #4caf50; */
+    color: black;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin: 0 4px;
+    font-weight: bold;
+    /* border-radius: 4px; */
+  }
+  
+  
+  
+  .pagination span.disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+
+  }
+  
+  .pagination button {
+    border: none;
+    color: black;
+ 
+    padding: 8px 16px;
+    cursor: pointer;
+    margin: 0 4px;
+    border-radius: 4px;
+    
+  }
+  
+
+  
+  .pagination button.active {
+ color: #f64f07;
+ font-weight: bold;
+  }
+  

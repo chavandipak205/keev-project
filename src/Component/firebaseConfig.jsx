@@ -1,15 +1,17 @@
-
-import { initializeApp } from 'firebase/app';
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAuth} from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "your-api-key",
-  authDomain: "your-auth-domain",
-  projectId: "your-project-id",
-  storageBucket: "your-storage-bucket",
-  messagingSenderId: "your-messaging-sender-id",
-  appId: "your-app-id"
+  apiKey: "AIzaSyAM2t2_gkpMPAQiZZRPX8uDHQ8IkMU-Yt4",
+  authDomain: "keesapp-8247a.firebaseapp.com",
+  projectId: "keesapp-8247a",
+  storageBucket: "keesapp-8247a.appspot.com",
+  messagingSenderId: "483114457566",
+  appId: "1:483114457566:web:a09fb5927e671469aa654f",
+  measurementId: "G-CFN1ZKDN4L"
 };
 
-const firebaseApp = initializeApp(firebaseConfig);
-
-export { firebaseApp };
+// Initialize Firebase
+export const app = initializeApp(firebaseConfig);
+export const auth=getAuth(app)  
