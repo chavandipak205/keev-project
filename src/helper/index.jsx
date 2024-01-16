@@ -1,21 +1,21 @@
 export const marketData =[{
     "companyName":"Reliance",
     "jsonData": [
-      {"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-  {"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
-  {"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-  {"timestamp": "2022-01-04T00:00:00.000Z", "price": 102.75},
-  {"timestamp": "2022-01-05T00:00:00.000Z", "price": 110.30},
-  {"timestamp": "2022-01-06T00:00:00.000Z", "price": 95.50},
-  {"timestamp": "2022-01-07T00:00:00.000Z", "price": 97.80},
-  {"timestamp": "2022-01-08T00:00:00.000Z", "price": 103.25},
-  {"timestamp": "2022-01-09T00:00:00.000Z", "price": 108.50},
-  {"timestamp": "2022-01-10T00:00:00.000Z", "price": 112.75},
+      {"timestamp": "2022-01-01T00:00:00.000Z", "price": 20.00},
+  {"timestamp": "2022-01-02T00:00:00.000Z", "price": 150.50},
+  {"timestamp": "2022-01-03T00:00:00.000Z", "price": 208.20},
+  {"timestamp": "2022-01-04T00:00:00.000Z", "price": 900.20},
+  {"timestamp": "2022-01-05T00:00:00.000Z", "price": 80.30},
+  {"timestamp": "2022-01-06T00:00:00.000Z", "price": 340.50},
+  {"timestamp": "2022-01-07T00:00:00.000Z", "price": 1100},
+  {"timestamp": "2022-01-08T00:00:00.000Z", "price": 303.25},
+  {"timestamp": "2022-01-09T00:00:00.000Z", "price": 400.50},
+  {"timestamp": "2022-01-10T00:00:00.000Z", "price": 1200},
   {"timestamp": "2022-01-11T00:00:00.000Z", "price": 115.20},
-  {"timestamp": "2022-01-12T00:00:00.000Z", "price": 120.10},
+  {"timestamp": "2022-01-12T00:00:00.000Z", "price": 400.10},
   {"timestamp": "2022-01-13T00:00:00.000Z", "price": 118.75},
-  {"timestamp": "2022-01-14T00:00:00.000Z", "price": 125.30},
-  {"timestamp": "2022-01-15T00:00:00.000Z", "price": 130.50},
+  {"timestamp": "2022-01-14T00:00:00.000Z", "price": 1400},
+  {"timestamp": "2022-01-15T00:00:00.000Z", "price": 1700},
     // ... add more data as needed
   ],
 "marketPrice":"2,772.30",
@@ -210,19 +210,19 @@ export const marketData =[{
     "companyName":"L&T",
     "jsonData": [
       {"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-      {"timestamp": "2022-01-02T00:00:00.000Z", "price": 95.50},
+      {"timestamp": "2022-01-02T00:00:00.000Z", "price": 111.50},
       {"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-      {"timestamp": "2022-01-04T00:00:00.000Z", "price": 92.75},
+      {"timestamp": "2022-01-04T00:00:00.000Z", "price": 100.75},
       {"timestamp": "2022-01-05T00:00:00.000Z", "price": 90.30},
-      {"timestamp": "2022-01-06T00:00:00.000Z", "price": 87.50},
-      {"timestamp": "2022-01-07T00:00:00.000Z", "price": 85.80},
-      {"timestamp": "2022-01-08T00:00:00.000Z", "price": 80.25},
+      {"timestamp": "2022-01-06T00:00:00.000Z", "price": 280.50},
+      {"timestamp": "2022-01-07T00:00:00.000Z", "price": 30.80},
+      {"timestamp": "2022-01-08T00:00:00.000Z", "price": 400.25},
       {"timestamp": "2022-01-09T00:00:00.000Z", "price": 78.50},
-      {"timestamp": "2022-01-10T00:00:00.000Z", "price": 75.75},
+      {"timestamp": "2022-01-10T00:00:00.000Z", "price": 15.75},
       {"timestamp": "2022-01-11T00:00:00.000Z", "price": 70.20},
-      {"timestamp": "2022-01-12T00:00:00.000Z", "price": 68.10},
+      {"timestamp": "2022-01-12T00:00:00.000Z", "price": 308.10},
       {"timestamp": "2022-01-13T00:00:00.000Z", "price": 65.75},
-      {"timestamp": "2022-01-14T00:00:00.000Z", "price": 62.30},
+      {"timestamp": "2022-01-14T00:00:00.000Z", "price": 160.30},
       {"timestamp": "2022-01-15T00:00:00.000Z", "price": 60.50}
     // ... add more data as needed
   ],
@@ -252,7 +252,7 @@ export const marketData =[{
 "marketPercentaged":"30.85(1.13%)",
 },
 {
-  "companyName":"TCS",
+  "companyName":"Infosys",
   "jsonData": [
     {"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
     {"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
@@ -275,7 +275,7 @@ export const marketData =[{
 "marketPercentaged":"18.60(0.48%)",
 },
 {
-"companyName":"HDFC Bank",
+"companyName":"ICICI Bank",
 "jsonData": [
   {"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
   {"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
@@ -298,7 +298,7 @@ export const marketData =[{
 "marketPercentaged":"22.85(1.39%)",
 },
 {
-"companyName":"ICICI Bank",
+"companyName":"YES Bank",
 "jsonData": [
   {"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
   {"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
@@ -344,7 +344,7 @@ export const marketData =[{
 "marketPercentaged":"28.15(1.75%)",
 },
 {
-"companyName":"Bharti Airtel",
+"companyName":"REliance Airtel",
 "jsonData": [
   {"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
   {"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
@@ -367,7 +367,7 @@ export const marketData =[{
 "marketPercentaged":"10.30(0.96%)",
 },
 {
-"companyName":"Hindustan Unilever",
+"companyName":" Unilever",
 "jsonData": [
   {"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
   {"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
@@ -390,7 +390,7 @@ export const marketData =[{
 "marketPercentaged":"6.15(0.24%)",
 },
 {
-"companyName":"ITC",
+"companyName":"ITC Local",
 "jsonData": [
   {"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
   {"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
@@ -413,7 +413,7 @@ export const marketData =[{
 "marketPercentaged":"1.25(0.27%)",
 },
 {
-"companyName":"SBI",
+"companyName":"SBI Mumbai",
 "jsonData": [
   {"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
   {"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
@@ -437,7 +437,7 @@ export const marketData =[{
 },
 
 {
-  "companyName":"L&T",
+  "companyName":"L&T Pune",
   "jsonData": [
     {"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
     {"timestamp": "2022-01-02T00:00:00.000Z", "price": 95.50},
@@ -459,7 +459,7 @@ export const marketData =[{
 "marketPrice":"3,559.25",
 "marketPercentaged":"-9.55(0.27%)",
 },{
-  "companyName":"Reliance",
+  "companyName":"Reliance Jio",
   "jsonData": [
     {"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
 {"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
@@ -482,7 +482,7 @@ export const marketData =[{
 "marketPercentaged":"30.85(1.13%)",
 },
 {
-  "companyName":"TCS",
+  "companyName":"TCS Mumbai",
   "jsonData": [
     {"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
     {"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
@@ -505,7 +505,7 @@ export const marketData =[{
 "marketPercentaged":"18.60(0.48%)",
 },
 {
-"companyName":"HDFC Bank",
+"companyName":"MOT Bank",
 "jsonData": [
   {"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
   {"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
@@ -528,7 +528,7 @@ export const marketData =[{
 "marketPercentaged":"22.85(1.39%)",
 },
 {
-"companyName":"ICICI Bank",
+"companyName":"WE3 Bank",
 "jsonData": [
   {"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
   {"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
@@ -551,7 +551,7 @@ export const marketData =[{
 "marketPercentaged":"3.60(0.36%)",
 },
 {
-"companyName":"Infosys",
+"companyName":"Syntel",
 "jsonData": [
   {"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
   {"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
@@ -574,7 +574,7 @@ export const marketData =[{
 "marketPercentaged":"28.15(1.75%)",
 },
 {
-"companyName":"Bharti Airtel",
+"companyName":"Bharti JIO",
 "jsonData": [
   {"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
   {"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
@@ -597,7 +597,7 @@ export const marketData =[{
 "marketPercentaged":"10.30(0.96%)",
 },
 {
-"companyName":"Hindustan Unilever",
+"companyName":"Hindustan Mumbai",
 "jsonData": [
   {"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
   {"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
@@ -620,7 +620,7 @@ export const marketData =[{
 "marketPercentaged":"6.15(0.24%)",
 },
 {
-"companyName":"ITC",
+"companyName":"ITC-Kolkata",
 "jsonData": [
   {"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
   {"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
@@ -643,7 +643,7 @@ export const marketData =[{
 "marketPercentaged":"1.25(0.27%)",
 },
 {
-"companyName":"SBI",
+"companyName":"SBI-Nashik",
 "jsonData": [
   {"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
   {"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},

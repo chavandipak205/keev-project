@@ -4,27 +4,19 @@ import { marketData } from "../helper";
 import { IoIosAddCircleOutline } from "react-icons/io";
 import { FaRupeeSign } from "react-icons/fa";
 import ReactPaginate from "react-paginate";
+import Modal from "react-modal"; 
 import '../CSS files/GraphLine.css'
 
 const ZoomableTimeSeriesGraph = () => {
   const itemsPerPage = 10;
   const [currentPage, setCurrentPage] = useState(0);
-  // const generateData = () => {
-  //     const now = new Date().getTime();
-  //     const data = [];
-  //     for (let i = 0; i < 20; i++) {
-  //       data.push({
-  //         x: now - i * 1000,
-  //         y: Math.random() * 100,
-  //       });
-  //     }
-  //     return data.reverse();
-  //   };
+  const [selectedData, setSelectedData] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  
   const [data, setData] = useState({
     series: [
       {
-        // name: 'Stock Price',
-        // data: generateData(),
+        
         data: [],
       },
     ],
@@ -53,9 +45,7 @@ const ZoomableTimeSeriesGraph = () => {
         },
       },
       yaxis: {
-        // title: {
-        //   text: 'Stock Price',
-        // },
+        
         labels: {
           show: false, // hide x-axis labels
         },
@@ -70,13 +60,7 @@ const ZoomableTimeSeriesGraph = () => {
       markers: {
         show: false, // hide data point markers
       },
-      //   toolbar: {
-      // autoSelected: 'zoom', // set default tool as zoom
-      // download: false,//download ption
-      // tools: {
-      //   download: false, // disable download options
-      // },
-      // },
+      
     },
   });
 
@@ -107,28 +91,31 @@ const ZoomableTimeSeriesGraph = () => {
     //
 
     console.log(seriesData);
-    console.log(arr);
+ 
     // Update the state with API data
     setData({
       series: seriesData,
-      //    [
-      //     {
-      //       name: 'Stock Price',
-      //     //   data: seriesData,
-      //     data:generateData(),
-      //       color: determineLineColor(),
-      //     },
-      //   ],
+     
       options: {
         ...data.options,
       },
     });
 
-    // Empty dependency array ensures this runs only once
-    // Update every 5 seconds
+    setSelectedData(null);
   }, [marketData, currentPage, itemsPerPage]);
+
   const handlePageClick = ({ selected }) => {
     setCurrentPage(selected);
+  };
+
+
+  const handleWatchlistClick = (data) => {
+    setSelectedData(data);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
   };
 
    const determineLineColor = (dataPoints) => {
@@ -142,20 +129,21 @@ const ZoomableTimeSeriesGraph = () => {
       <h1 className="first-heading">Top by Market Cap</h1>
       {/* <h2>Zoomable Time Series Stock Market Graph</h2> */}
       <table className="graphtable">
+        <thead>
         <tr className="graphtr">
           <th className="graphth">Company</th>
           <th className="graphth">Graph</th>
           <th className="graphth">Market Price</th>
           <th className="graphth">Watchlist</th>
         </tr>
-        {data?.series.map((value, index) => {
+        </thead>
+        <tbody>
+          {data?.series.map((value, index) => {
           return (
-            <>
-              {" "}
-              <tr className="graphtr">
+            <>        
+              <tr key={index} className="graphtr">
                 <td className="graphtd">{value.companyName}</td>
-                <td className="graphtd">
-                  {" "}
+                <td className="graphtd">                 
                   <ReactApexChart
                     options={data.options}
                     series={[{ ...value, color: value.color }]}
@@ -170,15 +158,47 @@ const ZoomableTimeSeriesGraph = () => {
                   <br />
                   <span className="colorgreen">{value.marketPercentaged}</span>
                 </td>
-                <td key={index} className="graphtd">
-                  <IoIosAddCircleOutline className="coloradd" size={20} />
-                </td>
+                 <td key={index} className="graphtd">
+                <IoIosAddCircleOutline
+                  className="coloradd"
+                  size={20}
+                  onClick={() => handleWatchlistClick(value)}
+                />
+              </td>
               </tr>
             </>
           );
         })}
-        
+        </tbody>
+       
       </table>
+      <Modal 
+        isOpen={isModalOpen}
+        onRequestClose={closeModal}
+        contentLabel="Selected Data Modal"
+      >
+        <h4>Selected Data:</h4>
+        {selectedData && (
+          <>
+            <p>Company Name: {selectedData.companyName}</p>
+            <p>
+              <ReactApexChart
+                options={data.options}
+                series={[{ ...selectedData, color: selectedData.color }]}
+                type="line"
+                height={200}
+              />
+            </p>
+            <p>
+              Market Price: <FaRupeeSign size={13} />
+              <span>{selectedData.marketPrice}</span>
+              <br />
+              <span className="colorgreen">{selectedData.marketPercentaged}</span>
+            </p>
+          </>
+        )}
+        <button onClick={closeModal} className="closebtn" >Close</button>
+      </Modal>
       <div className="paginateBox">
         <ReactPaginate
         pageCount={Math.ceil(marketData.length / itemsPerPage)}
