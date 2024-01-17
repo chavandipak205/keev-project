@@ -1,923 +1,178 @@
 {
-  "marketData":[
-  {
-  "companyName":"Reliance",
-  "jsonData": [
-{"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-{"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
-{"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-{"timestamp": "2022-01-04T00:00:00.000Z", "price": 102.75},
-{"timestamp": "2022-01-05T00:00:00.000Z", "price": 110.30},
-{"timestamp": "2022-01-06T00:00:00.000Z", "price": 95.50},
-{"timestamp": "2022-01-07T00:00:00.000Z", "price": 97.80},
-{"timestamp": "2022-01-08T00:00:00.000Z", "price": 103.25},
-{"timestamp": "2022-01-09T00:00:00.000Z", "price": 108.50},
-{"timestamp": "2022-01-10T00:00:00.000Z", "price": 112.75},
-{"timestamp": "2022-01-11T00:00:00.000Z", "price": 115.20},
-{"timestamp": "2022-01-12T00:00:00.000Z", "price": 120.10},
-{"timestamp": "2022-01-13T00:00:00.000Z", "price": 118.75},
-{"timestamp": "2022-01-14T00:00:00.000Z", "price": 125.30},
-{"timestamp": "2022-01-15T00:00:00.000Z", "price": 130.50}
-
-],
-"marketPrice":"2,772.30",
-"marketPercentaged":"30.85(1.13%)"
-},
-{
-  "companyName":"TCS",
-  "jsonData": [
-    {"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-    {"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
-    {"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-    {"timestamp": "2022-01-04T00:00:00.000Z", "price": 102.75},
-    {"timestamp": "2022-01-05T00:00:00.000Z", "price": 110.30},
-    {"timestamp": "2022-01-06T00:00:00.000Z", "price": 95.50},
-    {"timestamp": "2022-01-07T00:00:00.000Z", "price": 97.80},
-    {"timestamp": "2022-01-08T00:00:00.000Z", "price": 103.25},
-    {"timestamp": "2022-01-09T00:00:00.000Z", "price": 108.50},
-    {"timestamp": "2022-01-10T00:00:00.000Z", "price": 112.75},
-    {"timestamp": "2022-01-11T00:00:00.000Z", "price": 115.20},
-    {"timestamp": "2022-01-12T00:00:00.000Z", "price": 120.10},
-    {"timestamp": "2022-01-13T00:00:00.000Z", "price": 118.75},
-    {"timestamp": "2022-01-14T00:00:00.000Z", "price": 125.30},
-    {"timestamp": "2022-01-15T00:00:00.000Z", "price": 130.50}
-
-],
-"marketPrice":"3,901.40",
-"marketPercentaged":"18.60(0.48%)"
-},
-{
-"companyName":"HDFC Bank",
-"jsonData": [
-  {"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-  {"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
-  {"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-  {"timestamp": "2022-01-04T00:00:00.000Z", "price": 102.75},
-  {"timestamp": "2022-01-05T00:00:00.000Z", "price": 110.30},
-  {"timestamp": "2022-01-06T00:00:00.000Z", "price": 95.50},
-  {"timestamp": "2022-01-07T00:00:00.000Z", "price": 97.80},
-  {"timestamp": "2022-01-08T00:00:00.000Z", "price": 103.25},
-  {"timestamp": "2022-01-09T00:00:00.000Z", "price": 108.50},
-  {"timestamp": "2022-01-10T00:00:00.000Z", "price": 112.75},
-  {"timestamp": "2022-01-11T00:00:00.000Z", "price": 115.20},
-  {"timestamp": "2022-01-12T00:00:00.000Z", "price": 120.10},
-  {"timestamp": "2022-01-13T00:00:00.000Z", "price": 118.75},
-  {"timestamp": "2022-01-14T00:00:00.000Z", "price": 125.30},
-  {"timestamp": "2022-01-15T00:00:00.000Z", "price": 130.50}
- 
-],
-"marketPrice":"1,664.05",
-"marketPercentaged":"22.85(1.39%)"
-},
-{
-"companyName":"ICICI Bank",
-"jsonData": [
-  {"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-  {"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
-  {"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-  {"timestamp": "2022-01-04T00:00:00.000Z", "price": 102.75},
-  {"timestamp": "2022-01-05T00:00:00.000Z", "price": 110.30},
-  {"timestamp": "2022-01-06T00:00:00.000Z", "price": 95.50},
-  {"timestamp": "2022-01-07T00:00:00.000Z", "price": 97.80},
-  {"timestamp": "2022-01-08T00:00:00.000Z", "price": 103.25},
-  {"timestamp": "2022-01-09T00:00:00.000Z", "price": 108.50},
-  {"timestamp": "2022-01-10T00:00:00.000Z", "price": 112.75},
-  {"timestamp": "2022-01-11T00:00:00.000Z", "price": 115.20},
-  {"timestamp": "2022-01-12T00:00:00.000Z", "price": 120.10},
-  {"timestamp": "2022-01-13T00:00:00.000Z", "price": 118.75},
-  {"timestamp": "2022-01-14T00:00:00.000Z", "price": 125.30},
-  {"timestamp": "2022-01-15T00:00:00.000Z", "price": 130.50}
- 
-],
-"marketPrice":"1,007.10",
-"marketPercentaged":"3.60(0.36%)"
-},
-{
-"companyName":"Infosys",
-"jsonData": [
-  {"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-  {"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
-  {"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-  {"timestamp": "2022-01-04T00:00:00.000Z", "price": 102.75},
-  {"timestamp": "2022-01-05T00:00:00.000Z", "price": 110.30},
-  {"timestamp": "2022-01-06T00:00:00.000Z", "price": 95.50},
-  {"timestamp": "2022-01-07T00:00:00.000Z", "price": 97.80},
-  {"timestamp": "2022-01-08T00:00:00.000Z", "price": 103.25},
-  {"timestamp": "2022-01-09T00:00:00.000Z", "price": 108.50},
-  {"timestamp": "2022-01-10T00:00:00.000Z", "price": 112.75},
-  {"timestamp": "2022-01-11T00:00:00.000Z", "price": 115.20},
-  {"timestamp": "2022-01-12T00:00:00.000Z", "price": 120.10},
-  {"timestamp": "2022-01-13T00:00:00.000Z", "price": 118.75},
-  {"timestamp": "2022-01-14T00:00:00.000Z", "price": 125.30},
-  {"timestamp": "2022-01-15T00:00:00.000Z", "price": 130.50}
-
-],
-"marketPrice":"1,640.90",
-"marketPercentaged":"28.15(1.75%)"
-},
-{
-"companyName":"Bharti Airtel",
-"jsonData": [
-  {"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-  {"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
-  {"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-  {"timestamp": "2022-01-04T00:00:00.000Z", "price": 102.75},
-  {"timestamp": "2022-01-05T00:00:00.000Z", "price": 110.30},
-  {"timestamp": "2022-01-06T00:00:00.000Z", "price": 95.50},
-  {"timestamp": "2022-01-07T00:00:00.000Z", "price": 97.80},
-  {"timestamp": "2022-01-08T00:00:00.000Z", "price": 103.25},
-  {"timestamp": "2022-01-09T00:00:00.000Z", "price": 108.50},
-  {"timestamp": "2022-01-10T00:00:00.000Z", "price": 112.75},
-  {"timestamp": "2022-01-11T00:00:00.000Z", "price": 115.20},
-  {"timestamp": "2022-01-12T00:00:00.000Z", "price": 120.10},
-  {"timestamp": "2022-01-13T00:00:00.000Z", "price": 118.75},
-  {"timestamp": "2022-01-14T00:00:00.000Z", "price": 125.30},
-  {"timestamp": "2022-01-15T00:00:00.000Z", "price": 130.50}
- 
-],
-"marketPrice":"1,085.65",
-"marketPercentaged":"10.30(0.96%)"
-},
-{
-"companyName":"Hindustan Unilever",
-"jsonData": [
-  {"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-  {"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
-  {"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-  {"timestamp": "2022-01-04T00:00:00.000Z", "price": 102.75},
-  {"timestamp": "2022-01-05T00:00:00.000Z", "price": 110.30},
-  {"timestamp": "2022-01-06T00:00:00.000Z", "price": 95.50},
-  {"timestamp": "2022-01-07T00:00:00.000Z", "price": 97.80},
-  {"timestamp": "2022-01-08T00:00:00.000Z", "price": 103.25},
-  {"timestamp": "2022-01-09T00:00:00.000Z", "price": 108.50},
-  {"timestamp": "2022-01-10T00:00:00.000Z", "price": 112.75},
-  {"timestamp": "2022-01-11T00:00:00.000Z", "price": 115.20},
-  {"timestamp": "2022-01-12T00:00:00.000Z", "price": 120.10},
-  {"timestamp": "2022-01-13T00:00:00.000Z", "price": 118.75},
-  {"timestamp": "2022-01-14T00:00:00.000Z", "price": 125.30},
-  {"timestamp": "2022-01-15T00:00:00.000Z", "price": 130.50}
- 
-],
-"marketPrice":"2,550.15",
-"marketPercentaged":"6.15(0.24%)"
-},
-{
-"companyName":"ITC",
-"jsonData": [
-  {"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-  {"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
-  {"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-  {"timestamp": "2022-01-04T00:00:00.000Z", "price": 102.75},
-  {"timestamp": "2022-01-05T00:00:00.000Z", "price": 110.30},
-  {"timestamp": "2022-01-06T00:00:00.000Z", "price": 95.50},
-  {"timestamp": "2022-01-07T00:00:00.000Z", "price": 97.80},
-  {"timestamp": "2022-01-08T00:00:00.000Z", "price": 103.25},
-  {"timestamp": "2022-01-09T00:00:00.000Z", "price": 108.50},
-  {"timestamp": "2022-01-10T00:00:00.000Z", "price": 112.75},
-  {"timestamp": "2022-01-11T00:00:00.000Z", "price": 115.20},
-  {"timestamp": "2022-01-12T00:00:00.000Z", "price": 120.10},
-  {"timestamp": "2022-01-13T00:00:00.000Z", "price": 118.75},
-  {"timestamp": "2022-01-14T00:00:00.000Z", "price": 125.30},
-  {"timestamp": "2022-01-15T00:00:00.000Z", "price": 130.50}
- 
-],
-"marketPrice":"4,67.95",
-"marketPercentaged":"1.25(0.27%)"
-},
-{
-"companyName":"SBI",
-"jsonData": [
-  {"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-  {"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
-  {"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-  {"timestamp": "2022-01-04T00:00:00.000Z", "price": 102.75},
-  {"timestamp": "2022-01-05T00:00:00.000Z", "price": 110.30},
-  {"timestamp": "2022-01-06T00:00:00.000Z", "price": 95.50},
-  {"timestamp": "2022-01-07T00:00:00.000Z", "price": 97.80},
-  {"timestamp": "2022-01-08T00:00:00.000Z", "price": 103.25},
-  {"timestamp": "2022-01-09T00:00:00.000Z", "price": 108.50},
-  {"timestamp": "2022-01-10T00:00:00.000Z", "price": 112.75},
-  {"timestamp": "2022-01-11T00:00:00.000Z", "price": 115.20},
-  {"timestamp": "2022-01-12T00:00:00.000Z", "price": 120.10},
-  {"timestamp": "2022-01-13T00:00:00.000Z", "price": 118.75},
-  {"timestamp": "2022-01-14T00:00:00.000Z", "price": 125.30},
-  {"timestamp": "2022-01-15T00:00:00.000Z", "price": 130.50}
- 
-],
-"marketPrice":"639.00",
-"marketPercentaged":"5.40(0.85%)"
-},
-
-{
-  "companyName":"L&T",
-  "jsonData": [
-    {"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-    {"timestamp": "2022-01-02T00:00:00.000Z", "price": 95.50},
-    {"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-    {"timestamp": "2022-01-04T00:00:00.000Z", "price": 92.75},
-    {"timestamp": "2022-01-05T00:00:00.000Z", "price": 90.30},
-    {"timestamp": "2022-01-06T00:00:00.000Z", "price": 87.50},
-    {"timestamp": "2022-01-07T00:00:00.000Z", "price": 85.80},
-    {"timestamp": "2022-01-08T00:00:00.000Z", "price": 80.25},
-    {"timestamp": "2022-01-09T00:00:00.000Z", "price": 78.50},
-    {"timestamp": "2022-01-10T00:00:00.000Z", "price": 75.75},
-    {"timestamp": "2022-01-11T00:00:00.000Z", "price": 70.20},
-    {"timestamp": "2022-01-12T00:00:00.000Z", "price": 68.10},
-    {"timestamp": "2022-01-13T00:00:00.000Z", "price": 65.75},
-    {"timestamp": "2022-01-14T00:00:00.000Z", "price": 62.30},
-    {"timestamp": "2022-01-15T00:00:00.000Z", "price": 60.50}
- 
-],
-"marketPrice":"3,559.25",
-"marketPercentaged":"-9.55(0.27%)"
-},{
-"companyName":"Reliance",
-"jsonData": [
-  {"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-{"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
-{"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-{"timestamp": "2022-01-04T00:00:00.000Z", "price": 102.75},
-{"timestamp": "2022-01-05T00:00:00.000Z", "price": 110.30},
-{"timestamp": "2022-01-06T00:00:00.000Z", "price": 95.50},
-{"timestamp": "2022-01-07T00:00:00.000Z", "price": 97.80},
-{"timestamp": "2022-01-08T00:00:00.000Z", "price": 103.25},
-{"timestamp": "2022-01-09T00:00:00.000Z", "price": 108.50},
-{"timestamp": "2022-01-10T00:00:00.000Z", "price": 112.75},
-{"timestamp": "2022-01-11T00:00:00.000Z", "price": 115.20},
-{"timestamp": "2022-01-12T00:00:00.000Z", "price": 120.10},
-{"timestamp": "2022-01-13T00:00:00.000Z", "price": 118.75},
-{"timestamp": "2022-01-14T00:00:00.000Z", "price": 125.30},
-{"timestamp": "2022-01-15T00:00:00.000Z", "price": 130.50}
- 
-],
-"marketPrice":"2,772.30",
-"marketPercentaged":"30.85(1.13%)"
-},
-{
-"companyName":"TCS",
-"jsonData": [
-  {"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-  {"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
-  {"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-  {"timestamp": "2022-01-04T00:00:00.000Z", "price": 102.75},
-  {"timestamp": "2022-01-05T00:00:00.000Z", "price": 110.30},
-  {"timestamp": "2022-01-06T00:00:00.000Z", "price": 95.50},
-  {"timestamp": "2022-01-07T00:00:00.000Z", "price": 97.80},
-  {"timestamp": "2022-01-08T00:00:00.000Z", "price": 103.25},
-  {"timestamp": "2022-01-09T00:00:00.000Z", "price": 108.50},
-  {"timestamp": "2022-01-10T00:00:00.000Z", "price": 112.75},
-  {"timestamp": "2022-01-11T00:00:00.000Z", "price": 115.20},
-  {"timestamp": "2022-01-12T00:00:00.000Z", "price": 120.10},
-  {"timestamp": "2022-01-13T00:00:00.000Z", "price": 118.75},
-  {"timestamp": "2022-01-14T00:00:00.000Z", "price": 125.30},
-  {"timestamp": "2022-01-15T00:00:00.000Z", "price": 130.50}
- 
-],
-"marketPrice":"3,901.40",
-"marketPercentaged":"18.60(0.48%)"
-},
-{
-"companyName":"HDFC Bank",
-"jsonData": [
-{"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-{"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
-{"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-{"timestamp": "2022-01-04T00:00:00.000Z", "price": 102.75},
-{"timestamp": "2022-01-05T00:00:00.000Z", "price": 110.30},
-{"timestamp": "2022-01-06T00:00:00.000Z", "price": 95.50},
-{"timestamp": "2022-01-07T00:00:00.000Z", "price": 97.80},
-{"timestamp": "2022-01-08T00:00:00.000Z", "price": 103.25},
-{"timestamp": "2022-01-09T00:00:00.000Z", "price": 108.50},
-{"timestamp": "2022-01-10T00:00:00.000Z", "price": 112.75},
-{"timestamp": "2022-01-11T00:00:00.000Z", "price": 115.20},
-{"timestamp": "2022-01-12T00:00:00.000Z", "price": 120.10},
-{"timestamp": "2022-01-13T00:00:00.000Z", "price": 118.75},
-{"timestamp": "2022-01-14T00:00:00.000Z", "price": 125.30},
-{"timestamp": "2022-01-15T00:00:00.000Z", "price": 130.50}
- 
-],
-"marketPrice":"1,664.05",
-"marketPercentaged":"22.85(1.39%)"
-},
-{
-"companyName":"ICICI Bank",
-"jsonData": [
-{"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-{"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
-{"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-{"timestamp": "2022-01-04T00:00:00.000Z", "price": 102.75},
-{"timestamp": "2022-01-05T00:00:00.000Z", "price": 110.30},
-{"timestamp": "2022-01-06T00:00:00.000Z", "price": 95.50},
-{"timestamp": "2022-01-07T00:00:00.000Z", "price": 97.80},
-{"timestamp": "2022-01-08T00:00:00.000Z", "price": 103.25},
-{"timestamp": "2022-01-09T00:00:00.000Z", "price": 108.50},
-{"timestamp": "2022-01-10T00:00:00.000Z", "price": 112.75},
-{"timestamp": "2022-01-11T00:00:00.000Z", "price": 115.20},
-{"timestamp": "2022-01-12T00:00:00.000Z", "price": 120.10},
-{"timestamp": "2022-01-13T00:00:00.000Z", "price": 118.75},
-{"timestamp": "2022-01-14T00:00:00.000Z", "price": 125.30},
-{"timestamp": "2022-01-15T00:00:00.000Z", "price": 130.50}
-
-],
-"marketPrice":"1,007.10",
-"marketPercentaged":"3.60(0.36%)"
-},
-{
-"companyName":"Infosys",
-"jsonData": [
-{"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-{"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
-{"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-{"timestamp": "2022-01-04T00:00:00.000Z", "price": 102.75},
-{"timestamp": "2022-01-05T00:00:00.000Z", "price": 110.30},
-{"timestamp": "2022-01-06T00:00:00.000Z", "price": 95.50},
-{"timestamp": "2022-01-07T00:00:00.000Z", "price": 97.80},
-{"timestamp": "2022-01-08T00:00:00.000Z", "price": 103.25},
-{"timestamp": "2022-01-09T00:00:00.000Z", "price": 108.50},
-{"timestamp": "2022-01-10T00:00:00.000Z", "price": 112.75},
-{"timestamp": "2022-01-11T00:00:00.000Z", "price": 115.20},
-{"timestamp": "2022-01-12T00:00:00.000Z", "price": 120.10},
-{"timestamp": "2022-01-13T00:00:00.000Z", "price": 118.75},
-{"timestamp": "2022-01-14T00:00:00.000Z", "price": 125.30},
-{"timestamp": "2022-01-15T00:00:00.000Z", "price": 130.50}
-],
-"marketPrice":"1,640.90",
-"marketPercentaged":"28.15(1.75%)"
-},
-{
-"companyName":"Bharti Airtel",
-"jsonData": [
-{"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-{"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
-{"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-{"timestamp": "2022-01-04T00:00:00.000Z", "price": 102.75},
-{"timestamp": "2022-01-05T00:00:00.000Z", "price": 110.30},
-{"timestamp": "2022-01-06T00:00:00.000Z", "price": 95.50},
-{"timestamp": "2022-01-07T00:00:00.000Z", "price": 97.80},
-{"timestamp": "2022-01-08T00:00:00.000Z", "price": 103.25},
-{"timestamp": "2022-01-09T00:00:00.000Z", "price": 108.50},
-{"timestamp": "2022-01-10T00:00:00.000Z", "price": 112.75},
-{"timestamp": "2022-01-11T00:00:00.000Z", "price": 115.20},
-{"timestamp": "2022-01-12T00:00:00.000Z", "price": 120.10},
-{"timestamp": "2022-01-13T00:00:00.000Z", "price": 118.75},
-{"timestamp": "2022-01-14T00:00:00.000Z", "price": 125.30},
-{"timestamp": "2022-01-15T00:00:00.000Z", "price": 130.50}
-
-],
-"marketPrice":"1,085.65",
-"marketPercentaged":"10.30(0.96%)"
-},
-{
-"companyName":"Hindustan Unilever",
-"jsonData": [
-{"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-{"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
-{"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-{"timestamp": "2022-01-04T00:00:00.000Z", "price": 102.75},
-{"timestamp": "2022-01-05T00:00:00.000Z", "price": 110.30},
-{"timestamp": "2022-01-06T00:00:00.000Z", "price": 95.50},
-{"timestamp": "2022-01-07T00:00:00.000Z", "price": 97.80},
-{"timestamp": "2022-01-08T00:00:00.000Z", "price": 103.25},
-{"timestamp": "2022-01-09T00:00:00.000Z", "price": 108.50},
-{"timestamp": "2022-01-10T00:00:00.000Z", "price": 112.75},
-{"timestamp": "2022-01-11T00:00:00.000Z", "price": 115.20},
-{"timestamp": "2022-01-12T00:00:00.000Z", "price": 120.10},
-{"timestamp": "2022-01-13T00:00:00.000Z", "price": 118.75},
-{"timestamp": "2022-01-14T00:00:00.000Z", "price": 125.30},
-{"timestamp": "2022-01-15T00:00:00.000Z", "price": 130.50}
-
-],
-"marketPrice":"2,550.15",
-"marketPercentaged":"6.15(0.24%)"
-},
-{
-"companyName":"ITC",
-"jsonData": [
-{"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-{"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
-{"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-{"timestamp": "2022-01-04T00:00:00.000Z", "price": 102.75},
-{"timestamp": "2022-01-05T00:00:00.000Z", "price": 110.30},
-{"timestamp": "2022-01-06T00:00:00.000Z", "price": 95.50},
-{"timestamp": "2022-01-07T00:00:00.000Z", "price": 97.80},
-{"timestamp": "2022-01-08T00:00:00.000Z", "price": 103.25},
-{"timestamp": "2022-01-09T00:00:00.000Z", "price": 108.50},
-{"timestamp": "2022-01-10T00:00:00.000Z", "price": 112.75},
-{"timestamp": "2022-01-11T00:00:00.000Z", "price": 115.20},
-{"timestamp": "2022-01-12T00:00:00.000Z", "price": 120.10},
-{"timestamp": "2022-01-13T00:00:00.000Z", "price": 118.75},
-{"timestamp": "2022-01-14T00:00:00.000Z", "price": 125.30},
-{"timestamp": "2022-01-15T00:00:00.000Z", "price": 130.50}
-
-],
-"marketPrice":"4,67.95",
-"marketPercentaged":"1.25(0.27%)"
-},
-{
-"companyName":"SBI",
-"jsonData": [
-{"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-{"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
-{"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-{"timestamp": "2022-01-04T00:00:00.000Z", "price": 102.75},
-{"timestamp": "2022-01-05T00:00:00.000Z", "price": 110.30},
-{"timestamp": "2022-01-06T00:00:00.000Z", "price": 95.50},
-{"timestamp": "2022-01-07T00:00:00.000Z", "price": 97.80},
-{"timestamp": "2022-01-08T00:00:00.000Z", "price": 103.25},
-{"timestamp": "2022-01-09T00:00:00.000Z", "price": 108.50},
-{"timestamp": "2022-01-10T00:00:00.000Z", "price": 112.75},
-{"timestamp": "2022-01-11T00:00:00.000Z", "price": 115.20},
-{"timestamp": "2022-01-12T00:00:00.000Z", "price": 120.10},
-{"timestamp": "2022-01-13T00:00:00.000Z", "price": 118.75},
-{"timestamp": "2022-01-14T00:00:00.000Z", "price": 125.30},
-{"timestamp": "2022-01-15T00:00:00.000Z", "price": 130.50}
-
-],
-"marketPrice":"639.00",
-"marketPercentaged":"5.40(0.85%)"
-},
-
-{
-"companyName":"L&T",
-"jsonData": [
-  {"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-  {"timestamp": "2022-01-02T00:00:00.000Z", "price": 95.50},
-  {"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-  {"timestamp": "2022-01-04T00:00:00.000Z", "price": 92.75},
-  {"timestamp": "2022-01-05T00:00:00.000Z", "price": 90.30},
-  {"timestamp": "2022-01-06T00:00:00.000Z", "price": 87.50},
-  {"timestamp": "2022-01-07T00:00:00.000Z", "price": 85.80},
-  {"timestamp": "2022-01-08T00:00:00.000Z", "price": 80.25},
-  {"timestamp": "2022-01-09T00:00:00.000Z", "price": 78.50},
-  {"timestamp": "2022-01-10T00:00:00.000Z", "price": 75.75},
-  {"timestamp": "2022-01-11T00:00:00.000Z", "price": 70.20},
-  {"timestamp": "2022-01-12T00:00:00.000Z", "price": 68.10},
-  {"timestamp": "2022-01-13T00:00:00.000Z", "price": 65.75},
-  {"timestamp": "2022-01-14T00:00:00.000Z", "price": 62.30},
-  {"timestamp": "2022-01-15T00:00:00.000Z", "price": 60.50}
-
-],
-"marketPrice":"3,559.25",
-"marketPercentaged":"-9.55(0.27%)"
-},{
-"companyName":"Reliance",
-"jsonData": [
-  {"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-{"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
-{"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-{"timestamp": "2022-01-04T00:00:00.000Z", "price": 102.75},
-{"timestamp": "2022-01-05T00:00:00.000Z", "price": 110.30},
-{"timestamp": "2022-01-06T00:00:00.000Z", "price": 95.50},
-{"timestamp": "2022-01-07T00:00:00.000Z", "price": 97.80},
-{"timestamp": "2022-01-08T00:00:00.000Z", "price": 103.25},
-{"timestamp": "2022-01-09T00:00:00.000Z", "price": 108.50},
-{"timestamp": "2022-01-10T00:00:00.000Z", "price": 112.75},
-{"timestamp": "2022-01-11T00:00:00.000Z", "price": 115.20},
-{"timestamp": "2022-01-12T00:00:00.000Z", "price": 120.10},
-{"timestamp": "2022-01-13T00:00:00.000Z", "price": 118.75},
-{"timestamp": "2022-01-14T00:00:00.000Z", "price": 125.30},
-{"timestamp": "2022-01-15T00:00:00.000Z", "price": 130.50}
-
-],
-"marketPrice":"2,772.30",
-"marketPercentaged":"30.85(1.13%)"
-},
-{
-"companyName":"TCS",
-"jsonData": [
-  {"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-  {"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
-  {"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-  {"timestamp": "2022-01-04T00:00:00.000Z", "price": 102.75},
-  {"timestamp": "2022-01-05T00:00:00.000Z", "price": 110.30},
-  {"timestamp": "2022-01-06T00:00:00.000Z", "price": 95.50},
-  {"timestamp": "2022-01-07T00:00:00.000Z", "price": 97.80},
-  {"timestamp": "2022-01-08T00:00:00.000Z", "price": 103.25},
-  {"timestamp": "2022-01-09T00:00:00.000Z", "price": 108.50},
-  {"timestamp": "2022-01-10T00:00:00.000Z", "price": 112.75},
-  {"timestamp": "2022-01-11T00:00:00.000Z", "price": 115.20},
-  {"timestamp": "2022-01-12T00:00:00.000Z", "price": 120.10},
-  {"timestamp": "2022-01-13T00:00:00.000Z", "price": 118.75},
-  {"timestamp": "2022-01-14T00:00:00.000Z", "price": 125.30},
-  {"timestamp": "2022-01-15T00:00:00.000Z", "price": 130.50}
-
-],
-"marketPrice":"3,901.40",
-"marketPercentaged":"18.60(0.48%)"
-},
-{
-"companyName":"HDFC Bank",
-"jsonData": [
-{"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-{"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
-{"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-{"timestamp": "2022-01-04T00:00:00.000Z", "price": 102.75},
-{"timestamp": "2022-01-05T00:00:00.000Z", "price": 110.30},
-{"timestamp": "2022-01-06T00:00:00.000Z", "price": 95.50},
-{"timestamp": "2022-01-07T00:00:00.000Z", "price": 97.80},
-{"timestamp": "2022-01-08T00:00:00.000Z", "price": 103.25},
-{"timestamp": "2022-01-09T00:00:00.000Z", "price": 108.50},
-{"timestamp": "2022-01-10T00:00:00.000Z", "price": 112.75},
-{"timestamp": "2022-01-11T00:00:00.000Z", "price": 115.20},
-{"timestamp": "2022-01-12T00:00:00.000Z", "price": 120.10},
-{"timestamp": "2022-01-13T00:00:00.000Z", "price": 118.75},
-{"timestamp": "2022-01-14T00:00:00.000Z", "price": 125.30},
-{"timestamp": "2022-01-15T00:00:00.000Z", "price": 130.50}
-
-],
-"marketPrice":"1,664.05",
-"marketPercentaged":"22.85(1.39%)"
-},
-{
-"companyName":"ICICI Bank",
-"jsonData": [
-{"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-{"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
-{"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-{"timestamp": "2022-01-04T00:00:00.000Z", "price": 102.75},
-{"timestamp": "2022-01-05T00:00:00.000Z", "price": 110.30},
-{"timestamp": "2022-01-06T00:00:00.000Z", "price": 95.50},
-{"timestamp": "2022-01-07T00:00:00.000Z", "price": 97.80},
-{"timestamp": "2022-01-08T00:00:00.000Z", "price": 103.25},
-{"timestamp": "2022-01-09T00:00:00.000Z", "price": 108.50},
-{"timestamp": "2022-01-10T00:00:00.000Z", "price": 112.75},
-{"timestamp": "2022-01-11T00:00:00.000Z", "price": 115.20},
-{"timestamp": "2022-01-12T00:00:00.000Z", "price": 120.10},
-{"timestamp": "2022-01-13T00:00:00.000Z", "price": 118.75},
-{"timestamp": "2022-01-14T00:00:00.000Z", "price": 125.30},
-{"timestamp": "2022-01-15T00:00:00.000Z", "price": 130.50}
-
-],
-"marketPrice":"1,007.10",
-"marketPercentaged":"3.60(0.36%)"
-},
-{
-"companyName":"Infosys",
-"jsonData": [
-{"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-{"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
-{"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-{"timestamp": "2022-01-04T00:00:00.000Z", "price": 102.75},
-{"timestamp": "2022-01-05T00:00:00.000Z", "price": 110.30},
-{"timestamp": "2022-01-06T00:00:00.000Z", "price": 95.50},
-{"timestamp": "2022-01-07T00:00:00.000Z", "price": 97.80},
-{"timestamp": "2022-01-08T00:00:00.000Z", "price": 103.25},
-{"timestamp": "2022-01-09T00:00:00.000Z", "price": 108.50},
-{"timestamp": "2022-01-10T00:00:00.000Z", "price": 112.75},
-{"timestamp": "2022-01-11T00:00:00.000Z", "price": 115.20},
-{"timestamp": "2022-01-12T00:00:00.000Z", "price": 120.10},
-{"timestamp": "2022-01-13T00:00:00.000Z", "price": 118.75},
-{"timestamp": "2022-01-14T00:00:00.000Z", "price": 125.30},
-{"timestamp": "2022-01-15T00:00:00.000Z", "price": 130.50}
-
-],
-"marketPrice":"1,640.90",
-"marketPercentaged":"28.15(1.75%)"
-},
-{
-"companyName":"Bharti Airtel",
-"jsonData": [
-{"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-{"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
-{"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-{"timestamp": "2022-01-04T00:00:00.000Z", "price": 102.75},
-{"timestamp": "2022-01-05T00:00:00.000Z", "price": 110.30},
-{"timestamp": "2022-01-06T00:00:00.000Z", "price": 95.50},
-{"timestamp": "2022-01-07T00:00:00.000Z", "price": 97.80},
-{"timestamp": "2022-01-08T00:00:00.000Z", "price": 103.25},
-{"timestamp": "2022-01-09T00:00:00.000Z", "price": 108.50},
-{"timestamp": "2022-01-10T00:00:00.000Z", "price": 112.75},
-{"timestamp": "2022-01-11T00:00:00.000Z", "price": 115.20},
-{"timestamp": "2022-01-12T00:00:00.000Z", "price": 120.10},
-{"timestamp": "2022-01-13T00:00:00.000Z", "price": 118.75},
-{"timestamp": "2022-01-14T00:00:00.000Z", "price": 125.30},
-{"timestamp": "2022-01-15T00:00:00.000Z", "price": 130.50}
-
-],
-"marketPrice":"1,085.65",
-"marketPercentaged":"10.30(0.96%)"
-},
-{
-"companyName":"Hindustan Unilever",
-"jsonData": [
-{"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-{"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
-{"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-{"timestamp": "2022-01-04T00:00:00.000Z", "price": 102.75},
-{"timestamp": "2022-01-05T00:00:00.000Z", "price": 110.30},
-{"timestamp": "2022-01-06T00:00:00.000Z", "price": 95.50},
-{"timestamp": "2022-01-07T00:00:00.000Z", "price": 97.80},
-{"timestamp": "2022-01-08T00:00:00.000Z", "price": 103.25},
-{"timestamp": "2022-01-09T00:00:00.000Z", "price": 108.50},
-{"timestamp": "2022-01-10T00:00:00.000Z", "price": 112.75},
-{"timestamp": "2022-01-11T00:00:00.000Z", "price": 115.20},
-{"timestamp": "2022-01-12T00:00:00.000Z", "price": 120.10},
-{"timestamp": "2022-01-13T00:00:00.000Z", "price": 118.75},
-{"timestamp": "2022-01-14T00:00:00.000Z", "price": 125.30},
-{"timestamp": "2022-01-15T00:00:00.000Z", "price": 130.50}
-
-],
-"marketPrice":"2,550.15",
-"marketPercentaged":"6.15(0.24%)"
-},
-{
-"companyName":"ITC",
-"jsonData": [
-{"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-{"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
-{"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-{"timestamp": "2022-01-04T00:00:00.000Z", "price": 102.75},
-{"timestamp": "2022-01-05T00:00:00.000Z", "price": 110.30},
-{"timestamp": "2022-01-06T00:00:00.000Z", "price": 95.50},
-{"timestamp": "2022-01-07T00:00:00.000Z", "price": 97.80},
-{"timestamp": "2022-01-08T00:00:00.000Z", "price": 103.25},
-{"timestamp": "2022-01-09T00:00:00.000Z", "price": 108.50},
-{"timestamp": "2022-01-10T00:00:00.000Z", "price": 112.75},
-{"timestamp": "2022-01-11T00:00:00.000Z", "price": 115.20},
-{"timestamp": "2022-01-12T00:00:00.000Z", "price": 120.10},
-{"timestamp": "2022-01-13T00:00:00.000Z", "price": 118.75},
-{"timestamp": "2022-01-14T00:00:00.000Z", "price": 125.30},
-{"timestamp": "2022-01-15T00:00:00.000Z", "price": 130.50}
-
-],
-"marketPrice":"4,67.95",
-"marketPercentaged":"1.25(0.27%)"
-},
-{
-"companyName":"SBI",
-"jsonData": [
-{"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-{"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
-{"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-{"timestamp": "2022-01-04T00:00:00.000Z", "price": 102.75},
-{"timestamp": "2022-01-05T00:00:00.000Z", "price": 110.30},
-{"timestamp": "2022-01-06T00:00:00.000Z", "price": 95.50},
-{"timestamp": "2022-01-07T00:00:00.000Z", "price": 97.80},
-{"timestamp": "2022-01-08T00:00:00.000Z", "price": 103.25},
-{"timestamp": "2022-01-09T00:00:00.000Z", "price": 108.50},
-{"timestamp": "2022-01-10T00:00:00.000Z", "price": 112.75},
-{"timestamp": "2022-01-11T00:00:00.000Z", "price": 115.20},
-{"timestamp": "2022-01-12T00:00:00.000Z", "price": 120.10},
-{"timestamp": "2022-01-13T00:00:00.000Z", "price": 118.75},
-{"timestamp": "2022-01-14T00:00:00.000Z", "price": 125.30},
-{"timestamp": "2022-01-15T00:00:00.000Z", "price": 130.50}
-
-],
-"marketPrice":"639.00",
-"marketPercentaged":"5.40(0.85%)"
-},
-
-{
-"companyName":"L&T",
-"jsonData": [
-  {"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-  {"timestamp": "2022-01-02T00:00:00.000Z", "price": 95.50},
-  {"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-  {"timestamp": "2022-01-04T00:00:00.000Z", "price": 92.75},
-  {"timestamp": "2022-01-05T00:00:00.000Z", "price": 90.30},
-  {"timestamp": "2022-01-06T00:00:00.000Z", "price": 87.50},
-  {"timestamp": "2022-01-07T00:00:00.000Z", "price": 85.80},
-  {"timestamp": "2022-01-08T00:00:00.000Z", "price": 80.25},
-  {"timestamp": "2022-01-09T00:00:00.000Z", "price": 78.50},
-  {"timestamp": "2022-01-10T00:00:00.000Z", "price": 75.75},
-  {"timestamp": "2022-01-11T00:00:00.000Z", "price": 70.20},
-  {"timestamp": "2022-01-12T00:00:00.000Z", "price": 68.10},
-  {"timestamp": "2022-01-13T00:00:00.000Z", "price": 65.75},
-  {"timestamp": "2022-01-14T00:00:00.000Z", "price": 62.30},
-  {"timestamp": "2022-01-15T00:00:00.000Z", "price": 60.50}
-
-],
-"marketPrice":"3,559.25",
-"marketPercentaged":"-9.55(0.27%)"
-},{
-"companyName":"Reliance",
-"jsonData": [
-  {"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-{"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
-{"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-{"timestamp": "2022-01-04T00:00:00.000Z", "price": 102.75},
-{"timestamp": "2022-01-05T00:00:00.000Z", "price": 110.30},
-{"timestamp": "2022-01-06T00:00:00.000Z", "price": 95.50},
-{"timestamp": "2022-01-07T00:00:00.000Z", "price": 97.80},
-{"timestamp": "2022-01-08T00:00:00.000Z", "price": 103.25},
-{"timestamp": "2022-01-09T00:00:00.000Z", "price": 108.50},
-{"timestamp": "2022-01-10T00:00:00.000Z", "price": 112.75},
-{"timestamp": "2022-01-11T00:00:00.000Z", "price": 115.20},
-{"timestamp": "2022-01-12T00:00:00.000Z", "price": 120.10},
-{"timestamp": "2022-01-13T00:00:00.000Z", "price": 118.75},
-{"timestamp": "2022-01-14T00:00:00.000Z", "price": 125.30},
-{"timestamp": "2022-01-15T00:00:00.000Z", "price": 130.50}
-
-],
-"marketPrice":"2,772.30",
-"marketPercentaged":"30.85(1.13%)"
-},
-{
-"companyName":"TCS",
-"jsonData": [
-  {"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-  {"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
-  {"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-  {"timestamp": "2022-01-04T00:00:00.000Z", "price": 102.75},
-  {"timestamp": "2022-01-05T00:00:00.000Z", "price": 110.30},
-  {"timestamp": "2022-01-06T00:00:00.000Z", "price": 95.50},
-  {"timestamp": "2022-01-07T00:00:00.000Z", "price": 97.80},
-  {"timestamp": "2022-01-08T00:00:00.000Z", "price": 103.25},
-  {"timestamp": "2022-01-09T00:00:00.000Z", "price": 108.50},
-  {"timestamp": "2022-01-10T00:00:00.000Z", "price": 112.75},
-  {"timestamp": "2022-01-11T00:00:00.000Z", "price": 115.20},
-  {"timestamp": "2022-01-12T00:00:00.000Z", "price": 120.10},
-  {"timestamp": "2022-01-13T00:00:00.000Z", "price": 118.75},
-  {"timestamp": "2022-01-14T00:00:00.000Z", "price": 125.30},
-  {"timestamp": "2022-01-15T00:00:00.000Z", "price": 130.50}
-
-],
-"marketPrice":"3,901.40",
-"marketPercentaged":"18.60(0.48%)"
-},
-{
-"companyName":"HDFC Bank",
-"jsonData": [
-{"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-{"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
-{"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-{"timestamp": "2022-01-04T00:00:00.000Z", "price": 102.75},
-{"timestamp": "2022-01-05T00:00:00.000Z", "price": 110.30},
-{"timestamp": "2022-01-06T00:00:00.000Z", "price": 95.50},
-{"timestamp": "2022-01-07T00:00:00.000Z", "price": 97.80},
-{"timestamp": "2022-01-08T00:00:00.000Z", "price": 103.25},
-{"timestamp": "2022-01-09T00:00:00.000Z", "price": 108.50},
-{"timestamp": "2022-01-10T00:00:00.000Z", "price": 112.75},
-{"timestamp": "2022-01-11T00:00:00.000Z", "price": 115.20},
-{"timestamp": "2022-01-12T00:00:00.000Z", "price": 120.10},
-{"timestamp": "2022-01-13T00:00:00.000Z", "price": 118.75},
-{"timestamp": "2022-01-14T00:00:00.000Z", "price": 125.30},
-{"timestamp": "2022-01-15T00:00:00.000Z", "price": 130.50}
-
-],
-"marketPrice":"1,664.05",
-"marketPercentaged":"22.85(1.39%)"
-},
-{
-"companyName":"ICICI Bank",
-"jsonData": [
-{"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-{"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
-{"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-{"timestamp": "2022-01-04T00:00:00.000Z", "price": 102.75},
-{"timestamp": "2022-01-05T00:00:00.000Z", "price": 110.30},
-{"timestamp": "2022-01-06T00:00:00.000Z", "price": 95.50},
-{"timestamp": "2022-01-07T00:00:00.000Z", "price": 97.80},
-{"timestamp": "2022-01-08T00:00:00.000Z", "price": 103.25},
-{"timestamp": "2022-01-09T00:00:00.000Z", "price": 108.50},
-{"timestamp": "2022-01-10T00:00:00.000Z", "price": 112.75},
-{"timestamp": "2022-01-11T00:00:00.000Z", "price": 115.20},
-{"timestamp": "2022-01-12T00:00:00.000Z", "price": 120.10},
-{"timestamp": "2022-01-13T00:00:00.000Z", "price": 118.75},
-{"timestamp": "2022-01-14T00:00:00.000Z", "price": 125.30},
-{"timestamp": "2022-01-15T00:00:00.000Z", "price": 130.50}
-
-],
-"marketPrice":"1,007.10",
-"marketPercentaged":"3.60(0.36%)"
-},
-{
-"companyName":"Infosys",
-"jsonData": [
-{"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-{"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
-{"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-{"timestamp": "2022-01-04T00:00:00.000Z", "price": 102.75},
-{"timestamp": "2022-01-05T00:00:00.000Z", "price": 110.30},
-{"timestamp": "2022-01-06T00:00:00.000Z", "price": 95.50},
-{"timestamp": "2022-01-07T00:00:00.000Z", "price": 97.80},
-{"timestamp": "2022-01-08T00:00:00.000Z", "price": 103.25},
-{"timestamp": "2022-01-09T00:00:00.000Z", "price": 108.50},
-{"timestamp": "2022-01-10T00:00:00.000Z", "price": 112.75},
-{"timestamp": "2022-01-11T00:00:00.000Z", "price": 115.20},
-{"timestamp": "2022-01-12T00:00:00.000Z", "price": 120.10},
-{"timestamp": "2022-01-13T00:00:00.000Z", "price": 118.75},
-{"timestamp": "2022-01-14T00:00:00.000Z", "price": 125.30},
-{"timestamp": "2022-01-15T00:00:00.000Z", "price": 130.50}
-
-],
-"marketPrice":"1,640.90",
-"marketPercentaged":"28.15(1.75%)"
-},
-{
-"companyName":"Bharti Airtel",
-"jsonData": [
-{"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-{"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
-{"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-{"timestamp": "2022-01-04T00:00:00.000Z", "price": 102.75},
-{"timestamp": "2022-01-05T00:00:00.000Z", "price": 110.30},
-{"timestamp": "2022-01-06T00:00:00.000Z", "price": 95.50},
-{"timestamp": "2022-01-07T00:00:00.000Z", "price": 97.80},
-{"timestamp": "2022-01-08T00:00:00.000Z", "price": 103.25},
-{"timestamp": "2022-01-09T00:00:00.000Z", "price": 108.50},
-{"timestamp": "2022-01-10T00:00:00.000Z", "price": 112.75},
-{"timestamp": "2022-01-11T00:00:00.000Z", "price": 115.20},
-{"timestamp": "2022-01-12T00:00:00.000Z", "price": 120.10},
-{"timestamp": "2022-01-13T00:00:00.000Z", "price": 118.75},
-{"timestamp": "2022-01-14T00:00:00.000Z", "price": 125.30},
-{"timestamp": "2022-01-15T00:00:00.000Z", "price": 130.50}
-
-],
-"marketPrice":"1,085.65",
-"marketPercentaged":"10.30(0.96%)"
-},
-{
-"companyName":"Hindustan Unilever",
-"jsonData": [
-{"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-{"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
-{"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-{"timestamp": "2022-01-04T00:00:00.000Z", "price": 102.75},
-{"timestamp": "2022-01-05T00:00:00.000Z", "price": 110.30},
-{"timestamp": "2022-01-06T00:00:00.000Z", "price": 95.50},
-{"timestamp": "2022-01-07T00:00:00.000Z", "price": 97.80},
-{"timestamp": "2022-01-08T00:00:00.000Z", "price": 103.25},
-{"timestamp": "2022-01-09T00:00:00.000Z", "price": 108.50},
-{"timestamp": "2022-01-10T00:00:00.000Z", "price": 112.75},
-{"timestamp": "2022-01-11T00:00:00.000Z", "price": 115.20},
-{"timestamp": "2022-01-12T00:00:00.000Z", "price": 120.10},
-{"timestamp": "2022-01-13T00:00:00.000Z", "price": 118.75},
-{"timestamp": "2022-01-14T00:00:00.000Z", "price": 125.30},
-{"timestamp": "2022-01-15T00:00:00.000Z", "price": 130.50}
-
-],
-"marketPrice":"2,550.15",
-"marketPercentaged":"6.15(0.24%)"
-},
-{
-"companyName":"ITC",
-"jsonData": [
-{"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-{"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
-{"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-{"timestamp": "2022-01-04T00:00:00.000Z", "price": 102.75},
-{"timestamp": "2022-01-05T00:00:00.000Z", "price": 110.30},
-{"timestamp": "2022-01-06T00:00:00.000Z", "price": 95.50},
-{"timestamp": "2022-01-07T00:00:00.000Z", "price": 97.80},
-{"timestamp": "2022-01-08T00:00:00.000Z", "price": 103.25},
-{"timestamp": "2022-01-09T00:00:00.000Z", "price": 108.50},
-{"timestamp": "2022-01-10T00:00:00.000Z", "price": 112.75},
-{"timestamp": "2022-01-11T00:00:00.000Z", "price": 115.20},
-{"timestamp": "2022-01-12T00:00:00.000Z", "price": 120.10},
-{"timestamp": "2022-01-13T00:00:00.000Z", "price": 118.75},
-{"timestamp": "2022-01-14T00:00:00.000Z", "price": 125.30},
-{"timestamp": "2022-01-15T00:00:00.000Z", "price": 130.50}
-
-],
-"marketPrice":"4,67.95",
-"marketPercentaged":"1.25(0.27%)"
-},
-{
-"companyName":"SBI",
-"jsonData": [
-{"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-{"timestamp": "2022-01-02T00:00:00.000Z", "price": 105.50},
-{"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-{"timestamp": "2022-01-04T00:00:00.000Z", "price": 102.75},
-{"timestamp": "2022-01-05T00:00:00.000Z", "price": 110.30},
-{"timestamp": "2022-01-06T00:00:00.000Z", "price": 95.50},
-{"timestamp": "2022-01-07T00:00:00.000Z", "price": 97.80},
-{"timestamp": "2022-01-08T00:00:00.000Z", "price": 103.25},
-{"timestamp": "2022-01-09T00:00:00.000Z", "price": 108.50},
-{"timestamp": "2022-01-10T00:00:00.000Z", "price": 112.75},
-{"timestamp": "2022-01-11T00:00:00.000Z", "price": 115.20},
-{"timestamp": "2022-01-12T00:00:00.000Z", "price": 120.10},
-{"timestamp": "2022-01-13T00:00:00.000Z", "price": 118.75},
-{"timestamp": "2022-01-14T00:00:00.000Z", "price": 125.30},
-{"timestamp": "2022-01-15T00:00:00.000Z", "price": 130.50}
- 
-],
-"marketPrice":"639.00",
-"marketPercentaged":"5.40(0.85%)"
-},
-
-{
-"companyName":"L&T",
-"jsonData": [
-  {"timestamp": "2022-01-01T00:00:00.000Z", "price": 100.00},
-  {"timestamp": "2022-01-02T00:00:00.000Z", "price": 95.50},
-  {"timestamp": "2022-01-03T00:00:00.000Z", "price": 98.20},
-  {"timestamp": "2022-01-04T00:00:00.000Z", "price": 92.75},
-  {"timestamp": "2022-01-05T00:00:00.000Z", "price": 90.30},
-  {"timestamp": "2022-01-06T00:00:00.000Z", "price": 87.50},
-  {"timestamp": "2022-01-07T00:00:00.000Z", "price": 85.80},
-  {"timestamp": "2022-01-08T00:00:00.000Z", "price": 80.25},
-  {"timestamp": "2022-01-09T00:00:00.000Z", "price": 78.50},
-  {"timestamp": "2022-01-10T00:00:00.000Z", "price": 75.75},
-  {"timestamp": "2022-01-11T00:00:00.000Z", "price": 70.20},
-  {"timestamp": "2022-01-12T00:00:00.000Z", "price": 68.10},
-  {"timestamp": "2022-01-13T00:00:00.000Z", "price": 65.75},
-  {"timestamp": "2022-01-14T00:00:00.000Z", "price": 62.30},
-  {"timestamp": "2022-01-15T00:00:00.000Z", "price": 60.50}
-
-],
-"marketPrice":"3,559.25",
-"marketPercentaged":"-9.55(0.27%)"
+  "data": {
+    "news": [
+      {
+        "newsId": 1525435,
+        "title": "HONASA CONUSMER: CO CELEBRATES A MAJOR MILESTONE WITH THE OPENING OF ITS 100TH STORE EXCLUSIVE BRAND OUTLET IN MUMBAI",
+        "description": "",
+        "newsDateTime": "24 Apr 23",
+        "newsUrl": "",
+        "sentiment": "11:33 Am",
+        "stock": null,
+        "category": ""
+      },
+      {
+        "newsId": 1525437,
+        "title": "QUINT DIGITAL: CO ANNOUNCES PLANS TO INVEST UP TO USD 2M IN LISTED GLOBAL MEDIA SPACE UNDER OVERSEAS PORTFOLIO INVESTMENT SCHEME",
+        "description": "",
+        "newsDateTime": 1705470387,
+        "newsUrl": "",
+        "sentiment": 0,
+        "stock": null,
+        "category": ""
+      },
+      {
+        "newsId": 1525436,
+        "title": "MANAPPURAM FINANCE: CO TO CONSIDER Q3 RESULTS ON FEB.7",
+        "description": "",
+        "newsDateTime": 1705469996,
+        "newsUrl": "",
+        "sentiment": 0,
+        "stock": {
+          "companyName": "Manappuram Finance Ltd",
+          "scrip": {
+            "scripCode": 19061,
+            "exchange": 0
+          },
+          "moslView": 0,
+          "holdingQty": 0,
+          "tradeSymbol": "MANAPPURAM"
+        },
+        "category": ""
+      },
+      {
+        "newsId": 1525434,
+        "title": "HINDUSTAN UNILEVER: RS. 57.47 CR NSE BLOCK TRADE; FOR ~ 225646 SHARES, AT RS. 2546.70",
+        "description": "",
+        "newsDateTime": 1705469630,
+        "newsUrl": "",
+        "sentiment": 0,
+        "stock": {
+          "companyName": "Hindustan Unilever Ltd",
+          "scrip": {
+            "scripCode": 1394,
+            "exchange": 0
+          },
+          "moslView": 0,
+          "holdingQty": 0,
+          "tradeSymbol": "HINDUNILVR"
+        },
+        "category": ""
+      },
+      {
+        "newsId": 1525433,
+        "title": "EASY TRIP PLANNERS: CO SAYS YUVA KABADDI SERIES ROPE IN CO AS TITLE SPONSOR FOR WINTER EDITION 2023",
+        "description": "",
+        "newsDateTime": 1705469572,
+        "newsUrl": "",
+        "sentiment": 0,
+        "stock": {
+          "companyName": "Easy Trip Planners Ltd",
+          "scrip": {
+            "scripCode": 2792,
+            "exchange": 0
+          },
+          "moslView": 0,
+          "holdingQty": 0,
+          "tradeSymbol": "EASEMYTRIP"
+        },
+        "category": ""
+      },
+      {
+        "newsId": 1525406,
+        "title": "CG POWER AND INDUSTRIAL SOLUTIONS: Rs. 35.58 Cr NSE Block Trade; for ~ 782418 Shares, at Rs. 454.80",
+        "description": "",
+        "newsDateTime": 1705469143,
+        "newsUrl": "",
+        "sentiment": 0,
+        "stock": {
+          "companyName": "CG Power & Industrial Solutions Ltd",
+          "scrip": {
+            "scripCode": 760,
+            "exchange": 0
+          },
+          "moslView": 0,
+          "holdingQty": 0,
+          "tradeSymbol": "CGPOWER"
+        },
+        "category": ""
+      },
+      {
+        "newsId": 1525401,
+        "title": "TATA CONSULTANCY SERVICES: RS. 73.04 CR NSE BLOCK TRADE; FOR ~ 188245 SHARES, AT RS. 3880.05",
+        "description": "",
+        "newsDateTime": 1705469002,
+        "newsUrl": "",
+        "sentiment": 0,
+        "stock": {
+          "companyName": "Tata Consultancy Services Ltd",
+          "scrip": {
+            "scripCode": 11536,
+            "exchange": 0
+          },
+          "moslView": 0,
+          "holdingQty": 0,
+          "tradeSymbol": "TCS"
+        },
+        "category": ""
+      },
+      {
+        "newsId": 1525404,
+        "title": "NETWORK18 MEDIA & INVESTMENTS: Rs. 17.67 Cr NSE Block Trade; for ~ 1355043 Shares, at Rs. 130.40",
+        "description": "",
+        "newsDateTime": 1705468713,
+        "newsUrl": "",
+        "sentiment": 0,
+        "stock": {
+          "companyName": "Network 18 Media & Investments Ltd",
+          "scrip": {
+            "scripCode": 14111,
+            "exchange": 0
+          },
+          "moslView": 0,
+          "holdingQty": 0,
+          "tradeSymbol": "NETWORK18"
+        },
+        "category": ""
+      },
+      {
+        "newsId": 1525402,
+        "title": "JUBILANT FOODWORKS: RS. 55.86 CR NSE BLOCK TRADE; FOR ~ 1055600 SHARES, AT RS. 529.15",
+        "description": "",
+        "newsDateTime": 1705468004,
+        "newsUrl": "",
+        "sentiment": 0,
+        "stock": {
+          "companyName": "Jubilant Foodworks Ltd",
+          "scrip": {
+            "scripCode": 18096,
+            "exchange": 0
+          },
+          "moslView": 0,
+          "holdingQty": 0,
+          "tradeSymbol": "JUBLFOOD"
+        },
+        "category": ""
+      },
+      {
+        "newsId": 1525400,
+        "title": "AAVAS FINANCIERS: RS. 61.09 CR NSE BLOCK TRADE; FOR ~ 392374 SHARES, AT RS. 1556.90",
+        "description": "",
+        "newsDateTime": 1705467911,
+        "newsUrl": "",
+        "sentiment": 0,
+        "stock": {
+          "companyName": "AAVAS Financiers Ltd",
+          "scrip": {
+            "scripCode": 5385,
+            "exchange": 0
+          },
+          "moslView": 0,
+          "holdingQty": 0,
+          "tradeSymbol": "AAVAS"
+        },
+        "category": ""
+      }
+    ]
+  }
 }
-]}

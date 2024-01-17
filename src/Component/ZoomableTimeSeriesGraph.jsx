@@ -4,19 +4,16 @@ import { marketData } from "../helper";
 import { IoIosAddCircleOutline } from "react-icons/io";
 import { FaRupeeSign } from "react-icons/fa";
 import ReactPaginate from "react-paginate";
-import Modal from "react-modal"; 
-import '../CSS files/GraphLine.css'
+import "../CSS files/GraphLine.css";
+import SlideData from "./SlideData";
 
 const ZoomableTimeSeriesGraph = () => {
   const itemsPerPage = 10;
   const [currentPage, setCurrentPage] = useState(0);
-  const [selectedData, setSelectedData] = useState(null);
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  
+
   const [data, setData] = useState({
     series: [
       {
-        
         data: [],
       },
     ],
@@ -45,7 +42,6 @@ const ZoomableTimeSeriesGraph = () => {
         },
       },
       yaxis: {
-        
         labels: {
           show: false, // hide x-axis labels
         },
@@ -60,7 +56,6 @@ const ZoomableTimeSeriesGraph = () => {
       markers: {
         show: false, // hide data point markers
       },
-      
     },
   });
 
@@ -77,9 +72,9 @@ const ZoomableTimeSeriesGraph = () => {
           y: graph.price,
         };
       });
-    
+
       const color = determineLineColor(dataPoints);
-    
+
       return {
         companyName: item.companyName,
         marketPrice: item?.marketPrice,
@@ -91,129 +86,88 @@ const ZoomableTimeSeriesGraph = () => {
     //
 
     console.log(seriesData);
- 
+
     // Update the state with API data
     setData({
       series: seriesData,
-     
+
       options: {
         ...data.options,
       },
     });
-
-    setSelectedData(null);
   }, [marketData, currentPage, itemsPerPage]);
 
   const handlePageClick = ({ selected }) => {
     setCurrentPage(selected);
   };
 
+  const determineLineColor = (dataPoints) => {
+    const lastDataPoint = dataPoints[dataPoints.length - 1].y;
+    const secondLastDataPoint = dataPoints[dataPoints.length - 2].y;
 
-  const handleWatchlistClick = (data) => {
-    setSelectedData(data);
-    setIsModalOpen(true);
+    return lastDataPoint > secondLastDataPoint ? "#5BFF33" : "#FF3933";
   };
-
-  const closeModal = () => {
-    setIsModalOpen(false);
-  };
-
-   const determineLineColor = (dataPoints) => {
-  const lastDataPoint = dataPoints[dataPoints.length - 1].y;
-  const secondLastDataPoint = dataPoints[dataPoints.length - 2].y;
-
-  return lastDataPoint > secondLastDataPoint ? "#5BFF33" : "#FF3933";
-};
   return (
     <div className="app">
-      <h1 className="first-heading">Top by Market Cap</h1>
-      {/* <h2>Zoomable Time Series Stock Market Graph</h2> */}
+      <h6 className="first-heading">Top by Market Cap</h6>
       <table className="graphtable">
         <thead>
-        <tr className="graphtr">
-          <th className="graphth">Company</th>
-          <th className="graphth">Graph</th>
-          <th className="graphth">Market Price</th>
-          <th className="graphth">Watchlist</th>
-        </tr>
+          <tr className="graphtr">
+            <th className="graphth">Company</th>
+            <th className="graphth"></th>
+            <th className="graphth">Market Price</th>
+            <th className="graphth">Watchlist</th>
+          </tr>
         </thead>
         <tbody>
           {data?.series.map((value, index) => {
-          return (
-            <>        
-              <tr key={index} className="graphtr">
-                <td className="graphtd">{value.companyName}</td>
-                <td className="graphtd">                 
-                  <ReactApexChart
-                    options={data.options}
-                    series={[{ ...value, color: value.color }]}
-                    type="line"
-                    height={50}
-                    width={100}
-                  />
-                </td>
-                <td className="graphtd">
-                  <FaRupeeSign size={13} />
-                  <span>{value.marketPrice}</span>
-                  <br />
-                  <span className="colorgreen">{value.marketPercentaged}</span>
-                </td>
-                 <td key={index} className="graphtd">
-                <IoIosAddCircleOutline
-                  className="coloradd"
-                  size={20}
-                  onClick={() => handleWatchlistClick(value)}
-                />
-              </td>
-              </tr>
-            </>
-          );
-        })}
+            return (
+              <>
+                <tr key={index} className="graphtr">
+                  <td className="graphtd">{value.companyName}</td>
+                  <td className="graphtd">
+                    <ReactApexChart
+                      options={data.options}
+                      series={[{ ...value, color: value.color }]}
+                      type="line"
+                      height={50}
+                      width={100}
+                    />
+                  </td>
+                  <td className="graphtd">
+                    <FaRupeeSign size={13} />
+                    <span className="marketsize">{value.marketPrice}</span>
+                    <br />
+                    <span className="colorgreen">
+                      {value.marketPercentaged}
+                    </span>
+                  </td>
+                  <td key={index} className="graphtd">
+                    <IoIosAddCircleOutline className="coloradd" size={20} />
+                  </td>
+                </tr>
+              </>
+            );
+          })}
         </tbody>
-       
       </table>
-      <Modal 
-        isOpen={isModalOpen}
-        onRequestClose={closeModal}
-        contentLabel="Selected Data Modal"
-      >
-        <h4>Selected Data:</h4>
-        {selectedData && (
-          <>
-            <p>Company Name: {selectedData.companyName}</p>
-            <p>
-              <ReactApexChart
-                options={data.options}
-                series={[{ ...selectedData, color: selectedData.color }]}
-                type="line"
-                height={200}
-              />
-            </p>
-            <p>
-              Market Price: <FaRupeeSign size={13} />
-              <span>{selectedData.marketPrice}</span>
-              <br />
-              <span className="colorgreen">{selectedData.marketPercentaged}</span>
-            </p>
-          </>
-        )}
-        <button onClick={closeModal} className="closebtn" >Close</button>
-      </Modal>
       <div className="paginateBox">
         <ReactPaginate
-        pageCount={Math.ceil(marketData.length / itemsPerPage)}
-        pageRangeDisplayed={10}
-        onPageChange={handlePageClick}
-        activeClassName="active" // Class for the active page
-        pageClassName="page"
-        marginPagesDisplayed={2}
-        breakLabel="..." // Ellipsis text for collapsed pages
-        breakClassName="break"
-        nextLabel=">"
-        nextClassName="next"
-        previousClassName="previous"
-        previousLabel="<"
-      /></div>
+          pageCount={Math.ceil(marketData.length / itemsPerPage)}
+          pageRangeDisplayed={10}
+          onPageChange={handlePageClick}
+          activeClassName="active" // Class for the active page
+          pageClassName="page"
+          marginPagesDisplayed={2}
+          breakLabel="..." // Ellipsis text for collapsed pages
+          breakClassName="break"
+          nextLabel=">"
+          nextClassName="next"
+          previousClassName="previous"
+          previousLabel="<"
+        />
+      </div>
+      <SlideData/>
     </div>
   );
 };

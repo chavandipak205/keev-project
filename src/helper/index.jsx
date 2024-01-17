@@ -1,7 +1,7 @@
 export const marketData =[{
     "companyName":"Reliance",
     "jsonData": [
-      {"timestamp": "2022-01-01T00:00:00.000Z", "price": 20.00},
+  {"timestamp": "2022-01-01T00:00:00.000Z", "price": 20.00},
   {"timestamp": "2022-01-02T00:00:00.000Z", "price": 150.50},
   {"timestamp": "2022-01-03T00:00:00.000Z", "price": 208.20},
   {"timestamp": "2022-01-04T00:00:00.000Z", "price": 900.20},
